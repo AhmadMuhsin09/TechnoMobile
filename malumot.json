@@ -1,11 +1,11 @@
 [
     {
-        "id":1
-    },
-    {
-
-    },
-    {
-        
+        "home":[
+            {
+                "title":"https://d3fyizz0b46qgr.cloudfront.net/global/homepage/new_global/headerLogo/logo.svg",
+                "navList":["Смартфоны", "Hоутбуки", "Аксессуары", "Где купить", "О нас", "Что нового?", "Поддержка"],
+                "navHref":["https://ru.tecno-mobile.com/phones/product-list/", "https://ru.tecno-mobile.com/pc-tablets/product-list/", "https://ru.tecno-mobile.com/accessories/product-list/", "https://ru.tecno-mobile.com/where-to-buy/", "https://ru.tecno-mobile.com/about-us/", "https://ru.tecno-mobile.com/news/", "https://www.carlcare.com/ru/service-center/"]
+            }
+        ]
     }
 ]

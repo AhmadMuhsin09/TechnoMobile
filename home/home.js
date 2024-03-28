@@ -4,6 +4,7 @@ window.addEventListener("load", ()=>{
         .then((res)=>res.json())
         .then(data =>{
             HomePage(data)
+            document.querySelector('header').style.backgroundImage = `url(${data[0].home[0].bg})`
         })
     }
     Data()
@@ -27,6 +28,9 @@ function HomePage(item){
         }
         parent.append(logo)
         parent.append(List)
+        let i = document.createElement('i')
+        i.className = 'bx bx-search-alt-2'
+        parent.append(i)
     }
 
 

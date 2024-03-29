@@ -5,8 +5,10 @@
                 "title":"https://d3fyizz0b46qgr.cloudfront.net/global/homepage/new_global/headerLogo/logo.svg",
                 "navList":["Smartfonlar", "Do'konlar", "Onlayn do'konlar", "Yangiliklar", "Hamkorlar uchun"],
                 "navHref":["https://www.tecno-mobile.com/uz/phones/product-list/", "https://www.tecno-mobile.com/uz/stores/", "https://www.tecno-mobile.com/uz/online-stores/", "https://www.tecno-mobile.com/uz/news/", "https://www.tecno-mobile.com/uz/for-partners/"],
-                "bg": "https://d3fyizz0b46qgr.cloudfront.net/global/homepage/ru/ru-8p-PC.png"
-                
+                "bg": "https://d3fyizz0b46qgr.cloudfront.net/global/homepage/ru/ru-8p-PC.png",
+                "navPhones": ["https://d3fyizz0b46qgr.cloudfront.net/global/phones/camon18/CH9_Summer_Breeze_800_800_3_.png", "https://d3fyizz0b46qgr.cloudfront.net/global/icon/yin.png", "https://d3fyizz0b46qgr.cloudfront.net/global/icon/spark8p.png", "https://d3fyizz0b46qgr.cloudfront.net/global/phones/POP5LIE/pop5lte--blue-800_800.png" ,"https://d3fyizz0b46qgr.cloudfront.net/global/menu-pic/all-icon.png"],
+                "navPhoneText":["https://d3fyizz0b46qgr.cloudfront.net/global/menu-pic/camon-text.png", "https://d3fyizz0b46qgr.cloudfront.net/global/menu-pic/pouvoir-text.png" , "https://d3fyizz0b46qgr.cloudfront.net/global/menu-pic/spark-text.png" ,"https://d3fyizz0b46qgr.cloudfront.net/global/menu-pic/spark-text.png", "https://d3fyizz0b46qgr.cloudfront.net/global/menu-pic/all-text.png"],
+                "PhoneHref" : ["https://www.tecno-mobile.com/uz/phones/camon-uz/", "https://www.tecno-mobile.com/uz/phones/pouvoir-uz/", "https://www.tecno-mobile.com/uz/phones/spark-uz/", "https://www.tecno-mobile.com/uz/phones/pop-uz/", "https://www.tecno-mobile.com/uz/phones/product-list/"]
             }
         ]
     }

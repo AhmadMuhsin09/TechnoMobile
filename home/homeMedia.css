@@ -1,0 +1,13 @@
+@media screen and (max-width:770px){
+    #List li{
+        display: none;
+    }
+    #phoneList{
+        height: 100%;
+        position: fixed;
+        width: 20%;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+    }
+}

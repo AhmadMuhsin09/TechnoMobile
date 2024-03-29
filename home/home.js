@@ -20,6 +20,7 @@ function HomePage(item){
         let List = document.getElementById('List')
         for(let i=0; i<item[0].home[0].navList.length; i++){
             let li = document.createElement('li')
+            li.classList.add('list')
             li.innerHTML = item[0].home[0].navList[i]
             let a = document.createElement('a')
             a.href = item[0].home[0].navHref[i]
@@ -34,6 +35,23 @@ function HomePage(item){
     }
 
 
+    function PhoneList(){
+        let List = document.getElementById('phoneList')
+        for(let i=0; i <item[0].home[0].navPhones.length; i++){
+            let li = document.createElement('a')
+            li.href = item[0].home[0].PhoneHref[i]
+            let phoneName = document.createElement('img')
+            phoneName.src = item[0].home[0].navPhoneText[i]
+            let img = document.createElement('img')
+            img.src = item[0].home[0].navPhones[i]
+            li.classList.add('box')
+            img.classList.add('phoneImage')
+            li.append(img)
+            li.append(phoneName)
+            List.append(li)
+        }
+    }
 
+    PhoneList()
     NavBar()
 }
